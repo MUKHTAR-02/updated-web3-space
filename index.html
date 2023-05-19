@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    
+    <!-- css and js link -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="new.css">
+    
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <!-- web3 link -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+    <script src="script.js"></script>    
+
+    <!-- fonts link -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css'>
+    <link href='//netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' rel='stylesheet'/>
+ 
+
+    <title>WEB3 Space</title>
+  </head>
+  <body>
+    <!-- *** this both can be used to style the navbar *** -->
+    <!-- navbar navbar-dark bg-dark -->
+    <!-- navbar navbar-expand-lg navbar-light bg-dark -->
+    <div class="nav">
+    <nav 
+        class="navbar navbar-expand-lg navbar-light bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-Logo">
+            <!-- ethereum logo -->
+            <a class="navbar-brand" href="#"> <img src="chain final.webp" alt="" width="35" height="37"></a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+            </li>
+
+            <!-- bad me dekhenge -->
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#">Meta Verse</a>
+            </li> -->
+            <li class="nav-item">
+                <a class="nav-link" href="https://opensea.io/" target="_blank">NFTs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="under development.html" target="_blank">Upcomming Events</a>
+          </li>
+            <!-- Ye disabled hai click hi nhi hoga upr -->
+            <!-- <li class="nav-item">
+              <a class="nav-link disabled" href="#">disabled</a>
+            </li> -->
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            <li class="meta-mask-logo">
+                <!-- <a class="navbar-brand" href="under development.html" target="_blank"> <img src="meta mask final.webp" alt="" width="37" height="37"></a> -->
+                <a onclick="Connect()" class="navbar-brand"> <img src="meta mask final.webp" alt="" width="37" height="37"></a>
+              </li>  
+        </form>
+        </div>
+    </nav>
+  </div>
+    <div class="playground">
+        
+        <div class="header-1">
+            <h1>What is Blockchain ?</h1>
+        </div>
+    <div class="blockchain-intro">
+        <h5>
+            The blockchain is a constantly growing list of information. That information is in blocks, and all these blocks are linked together. Each block matches the preceding and following, and the information that the middle block contains is encrypted by an algorithm using a cryptographic function called hash. This makes this information inviolable. It is a secure, open and public database.
+        </h5>
+        <div class="space">
+            <!-- space dene k liye bnaya hai bs -->
+        </div>
+
+        <!-- hash image ko centre mai kra -->
+            <div class="text-center">
+                <img src="hash.png" class="rounded" alt="" width="50%">
+            </div>
+
+            <div class="space">
+                <!-- space dene k liye bnaya hai bs -->
+            </div>
+        <h5>
+            Blockchain is a shared, immutable ledger that facilitates the process of recording transactions and tracking assets in a business network. An asset can be tangible (a house, car, cash, land) or intangible (intellectual property, patents, copyrights, branding). Virtually anything of value can be tracked and traded on a blockchain network, reducing risk and cutting costs for all involved.
+            <br> <br>
+            Learn some basic contents of Blockchain by clicking 'Start' button below!
+        </h5>
+    </div>
+     
+    <!-- / A set of walkthrough screens in HTML/CSS/JS. A personal experiment with layering images, CSS3 transitions, & flexbox. -->
+    <div class="body_of_slider">
+
+    <div class="start_button">
+      <button class="open-walkthrough">Start</button>
+    </div>
+      <div class='walkthrough show reveal'>
+  <div class='walkthrough-pagination'>
+    <a class='dot active'></a>
+    <a class='dot'></a>
+    <a class='dot'></a>
+    <a class='dot'></a>
+    <a class='dot'></a>
+  </div>
+  <div class='walkthrough-body'>
+    <ul class='screens animate'>
+      <li class='screen active'>
+        <div class='media logo'>
+          <img class='logo' src='https://s3.amazonaws.com/jebbles-codepen/icon.png'>
+        </div>
+        <h3>
+          DAOs
+          <br></br>
+        </h3>
+        <p>
+          A Decentralized Autonomous Organization (DAO) is an emerging legal structure that has no central governing body and whose members share a common goal to act in the best interest of the entity.        </p>
+    </li>
+      <li class='screen'>
+        <div class='media books'>
+          <img class='icon' src='https://s3.amazonaws.com/jebbles-codepen/book_icon_1.png'>
+          <img class='icon' src='https://s3.amazonaws.com/jebbles-codepen/book_icon_2.png'>
+          <img class='icon' src='https://s3.amazonaws.com/jebbles-codepen/book_icon_3.png'>
+        </div>
+        <h3>
+          Hashing
+          <br>Techniques</br>
+        </h3>
+        <p>
+          A hash function is any function that can be used to map data of arbitrary size to fixed-size values, though there are some hash functions that support variable length output. The values returned by a hash function are called hash values, hash codes, digests, or simply hashes.</p>
+    <br>
+      </li>
+      <li class='screen'>
+        <div class='media bars'>
+          <img class='icon' src='https://s3.amazonaws.com/jebbles-codepen/bar_icon_axis.png'>
+          <img class='icon' src='https://s3.amazonaws.com/jebbles-codepen/bar_icon_3.png'>
+          <img class='icon' src='https://s3.amazonaws.com/jebbles-codepen/bar_icon_2.png'>
+          <img class='icon' src='https://s3.amazonaws.com/jebbles-codepen/bar_icon_1.png'>
+        </div>
+        <h3>
+          Consensus
+          <br>Mechanism</br>
+        </h3>
+        <p>
+          A consensus mechanism is a method used to achieve agreement, trust, and security across a decentralized computer network. In the context of blockchains and cryptocurrencies, proof-of-work (PoW) and proof-of-stake (PoS) are two of the most prevalent consensus mechanisms.
+        </p>
+    </li>
+      <li class='screen'>
+        <div class='media files'>
+          <img class='icon' src='https://s3.amazonaws.com/jebbles-codepen/file_icon_1.png'>
+          <img class='icon' src='https://s3.amazonaws.com/jebbles-codepen/file_icon_2.png'>
+          <img class='icon' src='https://s3.amazonaws.com/jebbles-codepen/file_icon_3.png'>
+          <img class='icon' src='https://s3.amazonaws.com/jebbles-codepen/file_icon_4.png'>
+        </div>
+        <h3>
+          Crypto
+          <br>currency</br>
+        </h3>
+        <p>
+          Cryptocurrency is a digital or virtual currency that uses cryptography to secure transactions. It is based on blockchain technology and does not have a central issuing or regulating authority, making it immune to government interference or manipulation.
+        </p>
+      </li>
+      <li class='screen'>
+        <div class='media comm'>
+          <img class='icon' src='https://s3.amazonaws.com/jebbles-codepen/comm_icon_1.png'>
+          <img class='icon' src='https://s3.amazonaws.com/jebbles-codepen/comm_icon_2.png'>
+        </div>
+        <h3>
+          NFTs
+          <br></br>
+        </h3>
+        <p>
+          NFT stands for non-fungible token, which is a unique digital identifier that is recorded on a blockchain. It is used to certify ownership and authenticity and cannot be copied, substituted, or subdivided. NFTs can come in the form of art, music, in-game items, videos, and more.        </p>
+      </li>
+    </ul>
+    <button class='prev-screen'>
+      <i class='icon-angle-left'></i>
+    </button>
+    <button class='next-screen'>
+      <i class='icon-angle-right'></i>
+    </button>
+  </div>
+  <div class='walkthrough-footer'>
+    <button class='button next-screen'>Next</button>
+    <button class='button finish close' disabled='true'>Finish</button>
+  </div>
+</div>
+</div>
+    <div class="header-2">
+         <h1>What is WEB3 ?</h1>
+    </div>
+    <div class="WEB3-intro">
+        <h5>
+            Web 3 is decentralised. This means the network runs on millions of computers worldwide, not some localised data centres owned by companies. This decentralised network is inspired by the blockchain — the technology behind Bitcoin and cryptocurrencies.
+        </h5>
+        <h5>
+            Applications built with Web 3 protocols — known as dapps (decentralised apps) — cannot be shut down by entities, corporations, or governments. Anyone with a computer can take part in running the network.
+        </h5>
+        <div class="text-center">
+                <img src="web3.jpg" class="rounded" alt="" width="50%" height="100%">
+            </div>
+            <div class="space">
+                <!-- space dene k liye bnaya hai bs -->
+            </div>
+        <h5>
+            In Web 3, users and builders alike can earn money and make a good living. This is possible because dapps and other Web 3 services are powered by cryptocurrency tokens. Every time you use, improve, and interact, you earn tokens. The more you participate, the more tokens you accumulate. The tokens you earn will appreciate. You can either hold onto your earnings or exchange them against fiat currencies.
+        </h5>
+        <h5>
+            Because Web 3 is built on the principle of shared ownership, everyone has “skin in the game”. When a Web 3 platform grows and succeeds, all win, not just a select few. In Web 3, you are a user, a creator, but most importantly, an owner.
+        </h5>
+    </div>
+    
+    <!-- js link -->
+    <script src="new.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    -->
+    
+    <footer id="footer" class="footer-1">
+    <div class="main-footer widgets-dark typo-light">
+    <div class="container">
+    <div class="row">
+    
+      <div class="col-xs-12 col-sm-6 col-md-3">
+    <div class="widget subscribe no-box">
+    <h5 class="widget-title">Owner<span></span></h5>
+    <p> Mukhtar Khan </p>
+    <!-- <div class="thumb-content"><a href="#.">&nbsp;Our Privacy Policy</a></div> -->
+    </div>
+    </div>
+    
+      
+    <div class="col-xs-12 col-sm-6 col-md-3">
+    <div class="widget no-box">
+    <h5 class="widget-title">About Us<span></span></h5>
+    <ul class="thumbnail-widget">
+    <li>
+    <div class="thumb-content"><a href="#.">&nbsp;Our Privacy Policy</a></div> 
+    </li>
+    <li>
+    <div class="thumb-content"><a href="#.">&nbsp;Terms & Conditions </a></div> 
+    </li>
+    </ul>
+    </div>
+    </div>
+    
+      
+    
+          <div class="col-xs-12 col-sm-6 col-md-3">
+    <div class="widget no-box">
+    <h5 class="widget-title">Follow us<span></span></h5>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/MUKHTAR-02" target="_blank"> <i class="fa fa-github"> </i> </a>
+                &nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/mukhtar02/" target="_blank"> <i class="fa fa-linkedin"> </i> </a>
+                &nbsp;&nbsp;&nbsp;<a href="https://twitter.com/xMukhtaRx" target="_blank"> <i class="fa fa-twitter"> </i> </a>
+    </div>
+    </div>
+    <br>
+      <br>
+    
+    
+    <div class="col-xs-12 col-sm-6 col-md-3">
+    <div class="widget no-box">
+    <h5 class="widget-title">Contact Us<span></span></h5>
+                <p>Feel free to contact us.</p>
+      <div class="emailfield">
+    <input type="text" name="email" placeholder="xyz@gmail.com" value="">
+    <input name="uri" type="hidden" value="arabiantheme">
+    <input name="loc" type="hidden" value="en_US">
+    <input onclick="SubscribeButton()" class="submitbutton ripplelink" type="submit" value="Subscribe" >
+    </form>  
+    </div>
+    </div>
+    
+    </div>
+    </div>
+    </div>
+      
+    <div class="footer-copyright">
+    <div class="container">
+    <div class="row">
+    <div class="col-md-12 text-center">
+    <p>Copyright Design Mukhtar Khan © 2022. All rights reserved.</p>
+    </div>
+    </div>
+    </div>
+    </div>
+    </footer>
+
+</div>
+  </body>
+</html>
